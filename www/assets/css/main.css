@@ -1706,7 +1706,7 @@ input, select, textarea {
 
 .membre-block {
 	float:left;
-	width: 50%;
+	width: 33%;
 	padding: 10px;
 	position:relative; 
 	z-index:10;
@@ -1751,8 +1751,13 @@ input, select, textarea {
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none; /* Non-prefixed version, currently
-								  supported by Chrome and Opera */
-	
+	supported by Chrome and Opera */
+	font-size: 100vw;
+	text-align: center;
+}
+
+.member-text{
+	font-size: 1vw;
 }
 
 
@@ -1763,8 +1768,13 @@ input, select, textarea {
     }
 	
 	.description{
-		font-size:1.4em;
-	}
+		font-size: 100vw;
+		text-align: center;
+		}
+	.member-text{
+			font-size: 10vw;
+		}
+		
 }
 
 .justify{
