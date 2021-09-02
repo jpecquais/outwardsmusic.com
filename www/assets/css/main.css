@@ -183,7 +183,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		letter-spacing: 0.2rem;
 	}
 
@@ -1307,8 +1307,8 @@ input, select, textarea {
 		}
 
 		.bandtitle {
-			font-family: steelfis;
-			font-size: 6em;
+			font-family: steelfish;
+			font-size: 8em;
 			-webkit-user-select: none;  /* Chrome all / Safari all */
 			-moz-user-select: none;     /* Firefox all */
 			-ms-user-select: none;      /* IE 10+ */
