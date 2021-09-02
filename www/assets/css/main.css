@@ -771,7 +771,21 @@ input, select, textarea {
 	#social img:hover{
 		transform: scale(1.2);
 	}
+
+	@media screen and (max-width: 480px) {
+			#social img{
+				max-width: 4.0rem;
+				padding: 0.5rem;
+				margin: 0.1rem;
+				transition: 0.5s;
+			}
+			
+			#social img:hover{
+				transform: scale(1.2);
+			}
 		
+	}
+
 /* Actions */
 
 	ul.actions {
