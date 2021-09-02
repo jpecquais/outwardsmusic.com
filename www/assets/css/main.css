@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import url(steelfish.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -1307,7 +1308,7 @@ input, select, textarea {
 		}
 
 		.bandtitle {
-			font-family: steelfish;
+			font-family: 'steelfishregular';
 			font-size: 8em;
 			-webkit-user-select: none;  /* Chrome all / Safari all */
 			-moz-user-select: none;     /* Firefox all */
