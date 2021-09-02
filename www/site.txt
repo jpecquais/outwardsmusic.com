@@ -1,0 +1,6 @@
+News : trouver un moyen d'intégrer notre flux facebook sans que ça soit dégueux (j'ai essayé avec le plugin fournie par facebook mais c'est vraiment moche)
+Biographie : RAS
+Membres : faire un petit système ou, quand on ouvre la page, on ne voit que les portraits. Lorsqu'on passe la souris sur une des photos, celle ci ce noircie un peu et le nom correspondant apparait. Lorsque qu'on clique dessus, un espace couvrant la largeur de trois portaits apparait et comprend : le nom, la description et la playliste spotify
+Disco : ras
+Concert : ras
+Contact : je sais pas encore comment faire pour que le formulaire soit relié a notre boite mail mais ça doit pas etre trop dur je vais chercher
