@@ -12,6 +12,21 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/fonts/steelfish/stylesheet.css" type="text/css" charset="utf-8"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- MailerLite Universal -->
+		<script>
+			(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+			var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+			f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+			var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+			_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+			
+			var ml_account = ml('accounts', '3403690', 'k1r3h2x8p0', 'load');
+		</script>
+		<script>
+			var ml_webform_4648819 = ml_account('webforms', '4648819', 'p2p7a0', 'load');
+			ml_webform_4648819('animation', 'fadeIn');
+		</script>
+	<!-- End MailerLite Universal -->
 	</head>
 	<body class="is-preload">
 		<div id="fb-root"></div>
@@ -26,8 +41,8 @@
 							<a href="https://open.spotify.com/artist/64HgTNfV1q1TGfmHuHYvyq" target="_blank"><img src="images/logo_spotify.png" title="Spotify" /></a>
 							<a href="https://www.facebook.com/outwardsband/" target="_blank"><img src="images/logo_fb.png" title="Facebook" /></a>
 							<a href="https://www.youtube.com/channel/UCP2YTAeqoV_KfqLZbTaQyLg" target="_blank"><img src="images/logo_youtube.png" title="Youtube" /></a>
-							<a href="https://www.instagram.com/outwardsmusic/" target="_blank"><img src="images/logo_insta.png" title="Profil Instagram" /></a>
-							<a href="_" target="_blank"><img src="images/logo_mail.png" title="Spotify" /></a>
+							<a href="https://www.instagram.com/outwardsmusic/" target="_blank"><img src="images/logo_insta.png" title="Instagram" /></a>
+							<a href="https://music.apple.com/us/artist/outwards/1435882271" target="_blank"><img src="images/logo_applemusic.png" title="Apple Music" /></a>
 						</div>
 						
 						<div class="content">
@@ -40,12 +55,12 @@
 						<!-- <nav>-->
 						<nav>
 							<ul>
-								<li><a href="https://outwards-music.bandcamp.com/" target="_blank">Bandcamp</a></li>
-								<li><a href="#bio">About</a></li>
+								<li><a href="https://outwards-music.bandcamp.com/" target="_blank" title="Bandcamp">Bandcamp</a></li>
+								<li><a href="#bio" title="About">About</a></li>
 								<!--<li><a href="#membres">Membres</a></li>-->
-								<li><a href="_">Newsletter</a></li>
-								<li><a href="#concerts">Live events</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="javascript:;" onclick="ml_webform_4648819('show')" title="Newsletter">Newsletter</a></li>
+								<li><a href="#concerts" title="Live events">Live events</a></li>
+								<li><a href="#contact" title="Contact us">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>

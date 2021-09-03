@@ -1191,6 +1191,13 @@ input, select, textarea {
 			background-color: #000000;
 		}
 
+		/* @media screen and (max-width: 480px) {
+			#bg:after {
+				background-image: url("../../images/bg_v.jpg");
+			}
+		
+		} */
+
 /* Wrapper */
 
 	#wrapper {
@@ -1489,7 +1496,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 736px) {
 
 			#header {
 				padding: 1.5rem 0;
