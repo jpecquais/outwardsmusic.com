@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import url(steelfish.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -183,7 +184,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		letter-spacing: 0.2rem;
 	}
 
@@ -770,7 +771,21 @@ input, select, textarea {
 	#social img:hover{
 		transform: scale(1.2);
 	}
+
+	@media screen and (max-width: 480px) {
+			#social img{
+				max-width: 4.0rem;
+				padding: 0.5rem;
+				margin: 0.1rem;
+				transition: 0.5s;
+			}
+			
+			#social img:hover{
+				transform: scale(1.2);
+			}
 		
+	}
+
 /* Actions */
 
 	ul.actions {
@@ -1176,6 +1191,13 @@ input, select, textarea {
 			background-color: #000000;
 		}
 
+		/* @media screen and (max-width: 480px) {
+			#bg:after {
+				background-image: url("../../images/bg_v.jpg");
+			}
+		
+		} */
+
 /* Wrapper */
 
 	#wrapper {
@@ -1307,8 +1329,8 @@ input, select, textarea {
 		}
 
 		.bandtitle {
-			font-family: steelfis;
-			font-size: 6em;
+			font-family: 'steelfishregular';
+			font-size: 8em;
 			-webkit-user-select: none;  /* Chrome all / Safari all */
 			-moz-user-select: none;     /* Firefox all */
 			-ms-user-select: none;      /* IE 10+ */
@@ -1474,7 +1496,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 736px) {
 
 			#header {
 				padding: 1.5rem 0;
@@ -1560,7 +1582,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(83, 88, 92, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1699,6 +1721,17 @@ input, select, textarea {
 }
 
 /* Create three equal columns that floats next to each other */
+.membres-container{
+	display: inline-block;	
+}
+
+.album-block {
+	float:left;
+	width: 50%;
+	padding: 10px;
+	position:relative; 
+	z-index:10;
+}
 
 .membres-container{
 	display: inline-block;	
@@ -1706,7 +1739,7 @@ input, select, textarea {
 
 .membre-block {
 	float:left;
-	width: 50%;
+	width: 33%;
 	padding: 10px;
 	position:relative; 
 	z-index:10;
@@ -1751,8 +1784,13 @@ input, select, textarea {
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none; /* Non-prefixed version, currently
-								  supported by Chrome and Opera */
-	
+	supported by Chrome and Opera */
+	font-size: 100vw;
+	text-align: center;
+}
+
+.member-text{
+	font-size: 1vw;
 }
 
 
@@ -1763,8 +1801,13 @@ input, select, textarea {
     }
 	
 	.description{
-		font-size:1.4em;
-	}
+		font-size: 100vw;
+		text-align: center;
+		}
+	.member-text{
+			font-size: 10vw;
+		}
+		
 }
 
 .justify{
