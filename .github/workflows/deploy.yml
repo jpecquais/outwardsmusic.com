@@ -31,11 +31,11 @@ jobs:
 
       # Main step pushing to Outwards website :)
       - name: FTP Deploy to OVH
-            uses: SamKirkland/FTP-Deploy-Action@3.1.1
-            with:
-              ftp-server: ftp.cluster021.hosting.ovh.net
-              ftp-username: ${{ secrets.OUTWARDS_LOGIN_FTP }}
-              ftp-password: ${{ secrets.OUTWARDS_FTP_PASSWORD }}
-              local-dir: ./
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        with:
+          server: ftp.cluster021.hosting.ovh.net
+          username: ${{ secrets.OUTWARDS_LOGIN_FTP }}
+          password: ${{ secrets.OUTWARDS_FTP_PASSWORD }}
+          local-dir: ./
 
 
