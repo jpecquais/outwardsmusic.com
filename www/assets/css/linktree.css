@@ -25,7 +25,7 @@ max-width: 100px;
 text-align: center;
 /* padding: 30px; */
 font-family: 'SteelfishRegular';
-font-size: 1em;
+font-size: 2em;
 }
 .links {
 text-align: center;
@@ -48,7 +48,7 @@ transition: color 1s;
 text-align: center;
 margin-top: 40px;
 font-size: 20px;
-font-weight: bold;
+/* font-weight: bold; */
 }
 a:hover {
 color: #000;
