@@ -180,7 +180,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 600;
+		/* font-weight: 600; */
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		/* text-transform: uppercase; */
@@ -1328,7 +1328,7 @@ input, select, textarea {
 		}
 
 		.bandtitle {
-			font-family: 'steelfish';
+			font-family: 'SteelfishRegular';
 			font-size: 10em;
 			-webkit-user-select: none;  /* Chrome all / Safari all */
 			-moz-user-select: none;     /* Firefox all */
